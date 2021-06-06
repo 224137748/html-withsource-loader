@@ -1,0 +1,23 @@
+{
+	"name": "html-widthsource-loader",
+	"version": "1.0.0",
+	"description": "处理html，支持直接在html中使用img、audio、video、surce标签加载资源",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"webpack",
+		"html",
+		"img",
+		"video",
+		"audio",
+		"loader"
+	],
+	"author": "findream",
+	"license": "ISC",
+	"dependencies": {
+		"loader-utils": "^2.0.0",
+		"path": "^0.12.7"
+	}
+}
