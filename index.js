@@ -50,6 +50,6 @@ function replaceSrc(fileContent, exclude) {
 function loadDeep(fileContent, queryStr) {
 	return fileContent.replace(/#include\(\\?[\'\"][^\'\"]+\\?[\'\"]\);?/g, function (str) {
 		var childFileSrc = str.replace(/[\\\'\"\>\(\);]/g, '').replace('#include', '');
-		return "\"+require(" + JSON.stringify("html-withimg-loader" + queryStr + "!" + childFileSrc) + ")+\"";
+		return "\"+require(" + JSON.stringify("html-widthsource-loader" + queryStr + "!" + childFileSrc) + ")+\"";
 	});
 }

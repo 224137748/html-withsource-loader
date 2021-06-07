@@ -1,6 +1,6 @@
 {
 	"name": "html-widthsource-loader",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "处理html，支持直接在html中使用img、audio、video、surce标签加载资源",
 	"main": "index.js",
 	"scripts": {
